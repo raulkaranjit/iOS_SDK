@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1873B33925A8261A005B2FFF /* CellPay_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1873B33725A8261A005B2FFF /* CellPay_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1873B34125A82B76005B2FFF /* APICalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B34025A82B76005B2FFF /* APICalling.swift */; };
+		1873B34325A82C31005B2FFF /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B34225A82C31005B2FFF /* APIClient.swift */; };
+		1873B34525A82EC1005B2FFF /* LuminousNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B34425A82EC1005B2FFF /* LuminousNetwork.swift */; };
+		1873B34725A82ECA005B2FFF /* Luminous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B34625A82ECA005B2FFF /* Luminous.swift */; };
+		1873B34925A82F90005B2FFF /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B34825A82F90005B2FFF /* APIError.swift */; };
+		1873B34B25A8341D005B2FFF /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B34A25A8341D005B2FFF /* WebServices.swift */; };
+		1873B34D25A837F2005B2FFF /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B34C25A837F2005B2FFF /* UserInfo.swift */; };
+		1873B35125A8388F005B2FFF /* CellPayMessageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B35025A8388F005B2FFF /* CellPayMessageError.swift */; };
+		1873B35325A83FDD005B2FFF /* OurCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1873B35225A83FDD005B2FFF /* OurCell.xib */; };
+		1873B35825A842A9005B2FFF /* APIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B35725A842A8005B2FFF /* APIUtils.swift */; };
+		1873B35A25A8443F005B2FFF /* BasePaymentSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B35925A8443F005B2FFF /* BasePaymentSP.swift */; };
+		1873B35C25A8445A005B2FFF /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B35B25A8445A005B2FFF /* CachedResponseHandler.swift */; };
+		1873B35E25A84464005B2FFF /* CellPayBankAccountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B35D25A84464005B2FFF /* CellPayBankAccountResponse.swift */; };
+		1873B36025A8446C005B2FFF /* CellPayPaymentArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B35F25A8446C005B2FFF /* CellPayPaymentArguments.swift */; };
+		1873B36225A84475005B2FFF /* ColorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B36125A84475005B2FFF /* ColorsExtension.swift */; };
+		1873B36425A84488005B2FFF /* ConfirmPaymentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B36325A84488005B2FFF /* ConfirmPaymentResponse.swift */; };
+		1873B36625A8448F005B2FFF /* ConfirmPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B36525A8448E005B2FFF /* ConfirmPaymentVC.swift */; };
+		1873B36825A844D8005B2FFF /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B36725A844D8005B2FFF /* DataExtension.swift */; };
+		1873B36A25A844DF005B2FFF /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B36925A844DF005B2FFF /* EncodableExtension.swift */; };
+		1873B36C25A84569005B2FFF /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B36B25A84569005B2FFF /* Enum.swift */; };
+		1873B36E25A84572005B2FFF /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B36D25A84572005B2FFF /* FloatingLabelTextField.swift */; };
+		1873B37025A8458D005B2FFF /* FrameworkStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1873B36F25A8458D005B2FFF /* FrameworkStoryboard.storyboard */; };
+		1873B37225A84594005B2FFF /* FrameworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B37125A84594005B2FFF /* FrameworkVC.swift */; };
+		1873B37425A845A3005B2FFF /* HttpHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B37325A845A3005B2FFF /* HttpHeader.swift */; };
+		1873B37625A845AE005B2FFF /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B37525A845AE005B2FFF /* HttpMethod.swift */; };
+		1873B37825A8469C005B2FFF /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B37725A8469C005B2FFF /* LoadingButton.swift */; };
+		1873B37A25A846A1005B2FFF /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B37925A846A1005B2FFF /* LoginResponse.swift */; };
+		1873B37C25A846A7005B2FFF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B37B25A846A7005B2FFF /* LoginVC.swift */; };
+		1873B37E25A846B0005B2FFF /* MerchantTransactionDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B37D25A846B0005B2FFF /* MerchantTransactionDetailsVC.swift */; };
+		1873B38025A846B6005B2FFF /* MyFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B37F25A846B5005B2FFF /* MyFramework.swift */; };
+		1873B38225A846BD005B2FFF /* PayMerchantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B38125A846BD005B2FFF /* PayMerchantResponse.swift */; };
+		1873B38425A846C4005B2FFF /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B38325A846C3005B2FFF /* ProgressView.swift */; };
+		1873B38625A84765005B2FFF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B38525A84765005B2FFF /* Reachability.swift */; };
+		1873B38825A8476A005B2FFF /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B38725A8476A005B2FFF /* RedirectHandler.swift */; };
+		1873B38A25A84770005B2FFF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B38925A8476F005B2FFF /* ReplaceMe.swift */; };
+		1873B38E25A847A4005B2FFF /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B38D25A847A4005B2FFF /* StringConstants.swift */; };
+		1873B39025A847AD005B2FFF /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B38F25A847AD005B2FFF /* TextFieldExtension.swift */; };
+		1873B39225A849B6005B2FFF /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1873B39125A849B5005B2FFF /* images.xcassets */; };
+		1873B39425A879CB005B2FFF /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873B39325A879CB005B2FFF /* SnackBar.swift */; };
+		1873B46525AB1D5B005B2FFF /* CellPay_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1873B33425A8261A005B2FFF /* CellPay_SDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1873B33425A8261A005B2FFF /* CellPay_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CellPay_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1873B33725A8261A005B2FFF /* CellPay_SDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellPay_SDK.h; sourceTree = "<group>"; };
+		1873B33825A8261A005B2FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1873B34025A82B76005B2FFF /* APICalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalling.swift; sourceTree = "<group>"; };
+		1873B34225A82C31005B2FFF /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1873B34425A82EC1005B2FFF /* LuminousNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuminousNetwork.swift; sourceTree = "<group>"; };
+		1873B34625A82ECA005B2FFF /* Luminous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luminous.swift; sourceTree = "<group>"; };
+		1873B34825A82F90005B2FFF /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		1873B34A25A8341D005B2FFF /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		1873B34C25A837F2005B2FFF /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1873B35025A8388F005B2FFF /* CellPayMessageError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellPayMessageError.swift; sourceTree = "<group>"; };
+		1873B35225A83FDD005B2FFF /* OurCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OurCell.xib; sourceTree = "<group>"; };
+		1873B35725A842A8005B2FFF /* APIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUtils.swift; sourceTree = "<group>"; };
+		1873B35925A8443F005B2FFF /* BasePaymentSP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePaymentSP.swift; sourceTree = "<group>"; };
+		1873B35B25A8445A005B2FFF /* CachedResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedResponseHandler.swift; sourceTree = "<group>"; };
+		1873B35D25A84464005B2FFF /* CellPayBankAccountResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellPayBankAccountResponse.swift; sourceTree = "<group>"; };
+		1873B35F25A8446C005B2FFF /* CellPayPaymentArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellPayPaymentArguments.swift; sourceTree = "<group>"; };
+		1873B36125A84475005B2FFF /* ColorsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsExtension.swift; sourceTree = "<group>"; };
+		1873B36325A84488005B2FFF /* ConfirmPaymentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPaymentResponse.swift; sourceTree = "<group>"; };
+		1873B36525A8448E005B2FFF /* ConfirmPaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPaymentVC.swift; sourceTree = "<group>"; };
+		1873B36725A844D8005B2FFF /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		1873B36925A844DF005B2FFF /* EncodableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
+		1873B36B25A84569005B2FFF /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		1873B36D25A84572005B2FFF /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		1873B36F25A8458D005B2FFF /* FrameworkStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FrameworkStoryboard.storyboard; sourceTree = "<group>"; };
+		1873B37125A84594005B2FFF /* FrameworkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkVC.swift; sourceTree = "<group>"; };
+		1873B37325A845A3005B2FFF /* HttpHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHeader.swift; sourceTree = "<group>"; };
+		1873B37525A845AE005B2FFF /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		1873B37725A8469C005B2FFF /* LoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		1873B37925A846A1005B2FFF /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginResponse.swift; path = ../../../../../Desktop/CellPaySDK/Pod/Classes/LoginResponse.swift; sourceTree = "<group>"; };
+		1873B37B25A846A7005B2FFF /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1873B37D25A846B0005B2FFF /* MerchantTransactionDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantTransactionDetailsVC.swift; sourceTree = "<group>"; };
+		1873B37F25A846B5005B2FFF /* MyFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFramework.swift; sourceTree = "<group>"; };
+		1873B38125A846BD005B2FFF /* PayMerchantResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayMerchantResponse.swift; sourceTree = "<group>"; };
+		1873B38325A846C3005B2FFF /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		1873B38525A84765005B2FFF /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1873B38725A8476A005B2FFF /* RedirectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedirectHandler.swift; sourceTree = "<group>"; };
+		1873B38925A8476F005B2FFF /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		1873B38D25A847A4005B2FFF /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		1873B38F25A847AD005B2FFF /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		1873B39125A849B5005B2FFF /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		1873B39325A879CB005B2FFF /* SnackBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1873B33125A8261A005B2FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1873B46525AB1D5B005B2FFF /* CellPay_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1873B32A25A8261A005B2FFF = {
+			isa = PBXGroup;
+			children = (
+				1873B33625A8261A005B2FFF /* CellPay SDK */,
+				1873B33525A8261A005B2FFF /* Products */,
+				1873B35425A841E2005B2FFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1873B33525A8261A005B2FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1873B33425A8261A005B2FFF /* CellPay_SDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1873B33625A8261A005B2FFF /* CellPay SDK */ = {
+			isa = PBXGroup;
+			children = (
+				1873B33F25A82A1B005B2FFF /* Classes */,
+				1873B33725A8261A005B2FFF /* CellPay_SDK.h */,
+				1873B33825A8261A005B2FFF /* Info.plist */,
+			);
+			path = "CellPay SDK";
+			sourceTree = "<group>";
+		};
+		1873B33F25A82A1B005B2FFF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1873B39325A879CB005B2FFF /* SnackBar.swift */,
+				1873B39125A849B5005B2FFF /* images.xcassets */,
+				1873B38F25A847AD005B2FFF /* TextFieldExtension.swift */,
+				1873B38D25A847A4005B2FFF /* StringConstants.swift */,
+				1873B38925A8476F005B2FFF /* ReplaceMe.swift */,
+				1873B38725A8476A005B2FFF /* RedirectHandler.swift */,
+				1873B38525A84765005B2FFF /* Reachability.swift */,
+				1873B38325A846C3005B2FFF /* ProgressView.swift */,
+				1873B38125A846BD005B2FFF /* PayMerchantResponse.swift */,
+				1873B37F25A846B5005B2FFF /* MyFramework.swift */,
+				1873B37D25A846B0005B2FFF /* MerchantTransactionDetailsVC.swift */,
+				1873B37B25A846A7005B2FFF /* LoginVC.swift */,
+				1873B37925A846A1005B2FFF /* LoginResponse.swift */,
+				1873B37725A8469C005B2FFF /* LoadingButton.swift */,
+				1873B37525A845AE005B2FFF /* HttpMethod.swift */,
+				1873B37325A845A3005B2FFF /* HttpHeader.swift */,
+				1873B37125A84594005B2FFF /* FrameworkVC.swift */,
+				1873B36F25A8458D005B2FFF /* FrameworkStoryboard.storyboard */,
+				1873B36D25A84572005B2FFF /* FloatingLabelTextField.swift */,
+				1873B36B25A84569005B2FFF /* Enum.swift */,
+				1873B36925A844DF005B2FFF /* EncodableExtension.swift */,
+				1873B36725A844D8005B2FFF /* DataExtension.swift */,
+				1873B36525A8448E005B2FFF /* ConfirmPaymentVC.swift */,
+				1873B36325A84488005B2FFF /* ConfirmPaymentResponse.swift */,
+				1873B36125A84475005B2FFF /* ColorsExtension.swift */,
+				1873B35F25A8446C005B2FFF /* CellPayPaymentArguments.swift */,
+				1873B35D25A84464005B2FFF /* CellPayBankAccountResponse.swift */,
+				1873B35B25A8445A005B2FFF /* CachedResponseHandler.swift */,
+				1873B35925A8443F005B2FFF /* BasePaymentSP.swift */,
+				1873B35725A842A8005B2FFF /* APIUtils.swift */,
+				1873B35225A83FDD005B2FFF /* OurCell.xib */,
+				1873B35025A8388F005B2FFF /* CellPayMessageError.swift */,
+				1873B34C25A837F2005B2FFF /* UserInfo.swift */,
+				1873B34A25A8341D005B2FFF /* WebServices.swift */,
+				1873B34625A82ECA005B2FFF /* Luminous.swift */,
+				1873B34425A82EC1005B2FFF /* LuminousNetwork.swift */,
+				1873B34025A82B76005B2FFF /* APICalling.swift */,
+				1873B34225A82C31005B2FFF /* APIClient.swift */,
+				1873B34825A82F90005B2FFF /* APIError.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1873B35425A841E2005B2FFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1873B32F25A8261A005B2FFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1873B33925A8261A005B2FFF /* CellPay_SDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1873B33325A8261A005B2FFF /* CellPay SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1873B33C25A8261A005B2FFF /* Build configuration list for PBXNativeTarget "CellPay SDK" */;
+			buildPhases = (
+				1873B32F25A8261A005B2FFF /* Headers */,
+				1873B33025A8261A005B2FFF /* Sources */,
+				1873B33125A8261A005B2FFF /* Frameworks */,
+				1873B33225A8261A005B2FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CellPay SDK";
+			productName = "CellPay SDK";
+			productReference = 1873B33425A8261A005B2FFF /* CellPay_SDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1873B32B25A8261A005B2FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = CellPay;
+				TargetAttributes = {
+					1873B33325A8261A005B2FFF = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 1873B32E25A8261A005B2FFF /* Build configuration list for PBXProject "CellPay SDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1873B32A25A8261A005B2FFF;
+			productRefGroup = 1873B33525A8261A005B2FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1873B33325A8261A005B2FFF /* CellPay SDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1873B33225A8261A005B2FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1873B39225A849B6005B2FFF /* images.xcassets in Resources */,
+				1873B37025A8458D005B2FFF /* FrameworkStoryboard.storyboard in Resources */,
+				1873B35325A83FDD005B2FFF /* OurCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1873B33025A8261A005B2FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1873B37E25A846B0005B2FFF /* MerchantTransactionDetailsVC.swift in Sources */,
+				1873B34125A82B76005B2FFF /* APICalling.swift in Sources */,
+				1873B34725A82ECA005B2FFF /* Luminous.swift in Sources */,
+				1873B38825A8476A005B2FFF /* RedirectHandler.swift in Sources */,
+				1873B37825A8469C005B2FFF /* LoadingButton.swift in Sources */,
+				1873B38025A846B6005B2FFF /* MyFramework.swift in Sources */,
+				1873B38A25A84770005B2FFF /* ReplaceMe.swift in Sources */,
+				1873B36425A84488005B2FFF /* ConfirmPaymentResponse.swift in Sources */,
+				1873B35A25A8443F005B2FFF /* BasePaymentSP.swift in Sources */,
+				1873B38425A846C4005B2FFF /* ProgressView.swift in Sources */,
+				1873B37625A845AE005B2FFF /* HttpMethod.swift in Sources */,
+				1873B37A25A846A1005B2FFF /* LoginResponse.swift in Sources */,
+				1873B39025A847AD005B2FFF /* TextFieldExtension.swift in Sources */,
+				1873B34B25A8341D005B2FFF /* WebServices.swift in Sources */,
+				1873B34525A82EC1005B2FFF /* LuminousNetwork.swift in Sources */,
+				1873B36225A84475005B2FFF /* ColorsExtension.swift in Sources */,
+				1873B36825A844D8005B2FFF /* DataExtension.swift in Sources */,
+				1873B34925A82F90005B2FFF /* APIError.swift in Sources */,
+				1873B34D25A837F2005B2FFF /* UserInfo.swift in Sources */,
+				1873B35825A842A9005B2FFF /* APIUtils.swift in Sources */,
+				1873B38E25A847A4005B2FFF /* StringConstants.swift in Sources */,
+				1873B36A25A844DF005B2FFF /* EncodableExtension.swift in Sources */,
+				1873B37225A84594005B2FFF /* FrameworkVC.swift in Sources */,
+				1873B36E25A84572005B2FFF /* FloatingLabelTextField.swift in Sources */,
+				1873B35E25A84464005B2FFF /* CellPayBankAccountResponse.swift in Sources */,
+				1873B36025A8446C005B2FFF /* CellPayPaymentArguments.swift in Sources */,
+				1873B36625A8448F005B2FFF /* ConfirmPaymentVC.swift in Sources */,
+				1873B35125A8388F005B2FFF /* CellPayMessageError.swift in Sources */,
+				1873B34325A82C31005B2FFF /* APIClient.swift in Sources */,
+				1873B37C25A846A7005B2FFF /* LoginVC.swift in Sources */,
+				1873B37425A845A3005B2FFF /* HttpHeader.swift in Sources */,
+				1873B38225A846BD005B2FFF /* PayMerchantResponse.swift in Sources */,
+				1873B36C25A84569005B2FFF /* Enum.swift in Sources */,
+				1873B38625A84765005B2FFF /* Reachability.swift in Sources */,
+				1873B39425A879CB005B2FFF /* SnackBar.swift in Sources */,
+				1873B35C25A8445A005B2FFF /* CachedResponseHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1873B33A25A8261A005B2FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1873B33B25A8261A005B2FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1873B33D25A8261A005B2FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "CellPay SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cellpay.CellPay-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1873B33E25A8261A005B2FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "CellPay SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cellpay.CellPay-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1873B32E25A8261A005B2FFF /* Build configuration list for PBXProject "CellPay SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1873B33A25A8261A005B2FFF /* Debug */,
+				1873B33B25A8261A005B2FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1873B33C25A8261A005B2FFF /* Build configuration list for PBXNativeTarget "CellPay SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1873B33D25A8261A005B2FFF /* Debug */,
+				1873B33E25A8261A005B2FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1873B32B25A8261A005B2FFF /* Project object */;
+}
